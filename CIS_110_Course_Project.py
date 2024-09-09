@@ -26,3 +26,17 @@ else:
     print(f"{mouseName} sits on the edge of the cornfiedl and watches the family and their dog.")
     print(f"He watches them enjoy the {season} day!")
     print(f"After watching a while he decides it's time to move on and keep looking for some food.")
+    
+goTospookyHouse = input(f"n\{mouseName} continues to walk along and sees an abandon SPOOKY house. Should {mouseName} go to the spooky house? Type Yes or no:  ")
+while goTospookyHouse.lower() != "yes" and goTospookyHouse.lower != "no":
+    goTospookyHouse = input(f"Please type yes or no:  ")
+    
+if goTospookyHouse == "yes":
+    print(f"\nHoping to find some {favoriteFood} at this place, {mouseName} heads on over to the SPOOKY house.")
+    print(f"{mouseName} Enters the house and scurries to the kitchen to see what can be scavenged.")
+    print(f"Upon entering the kitchen {mouseName} sees a GHOST floating in front of the fridge!!")
+    print(f"Scared out of his mind, {mouseName} runs out of the house!!")
+else:
+    print(f"Too aftaid of the SPOOKY house, {mouseName} heads to the back to seee if any food can be found.")
+    print(f"Around the back of the house the overgrown garden looks like a jungle.")
+    print(f"Too afraid of the darkness, from what looks like a forbidden forrest, {mouseName} leaves.")
