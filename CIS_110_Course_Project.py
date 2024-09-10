@@ -63,7 +63,7 @@ while keepPlaying.lower() == "yes":
         print(f"Scared out of his mind, {mouseName} runs out of the house!!")
     else:
         print(f"...")
-        print(f"Too aftaid of the SPOOKY house, {mouseName} heads to the back to see if any food can be found.")
+        print(f"Too afraid of the SPOOKY house, {mouseName} heads to the back to see if any food can be found.")
         print(f"Around the back of the house the overgrown garden looks like a jungle.")
         print(f"Too afraid of the darkness, from what looks like a forbidden forrest, {mouseName} leaves.")
     
