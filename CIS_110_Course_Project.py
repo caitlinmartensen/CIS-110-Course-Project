@@ -49,7 +49,7 @@ while keepPlaying.lower() == "yes":
         print(f"...")
         print(f"{mouseName} sits on the edge of the cornfield and watches the family and their dog.")
         print(f"He watches them enjoy the {season} day!")
-        print(f"After watching a while he decides it's time to move on and keep looking for some food.")
+        print(f"After watching awhile he decides it's time to move on and keep looking for some food.")
     
     goTospookyHouse = input(f"{mouseName} continues to walk along and sees an abandon SPOOKY house. Should {mouseName} go to the spooky house? Type yes or no:  ")
     while goTospookyHouse.lower() != "yes" and goTospookyHouse.lower() != "no":
@@ -74,7 +74,7 @@ while keepPlaying.lower() == "yes":
     elif goTofarmHouse == "no" and goTospookyHouse == "no":
         print("...")
         print(f"Defeated with an empty belly, {mouseName} heads home.")
-        print(f"On his way ome he finds a Happy Mean on the side of the road!!")
+        print(f"On his way home he finds a Happy Meal on the side of the road!!")
         print(f"SCORE ONE FOR THE LITTLE GUY!!")
         print(f"{mouseName} feels great bringing home some chicky nugs.")
     else:
